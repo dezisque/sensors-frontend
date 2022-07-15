@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="selection-block">
+    <div class="control-wrapper">
+      <div class="label">Выбор двигателя</div>
+      <div class="control">
+        <select
+          [(ngModel)]="selectedEngineId"
+          (change)="getDatesList()"
+        >
+          <option value="" disabled selected>Номер двигателя</option>
+          <option
+            *ngFor="let engine of enginesList"
+            [value]="engine.engineId"
+          >
+            {{ engine.engineId }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div class="control-wrapper" *ngIf="datesList?.length">
+      <div class="label">Выбор даты</div>
+      <div class="control">
+        <select (change)="loadDataByDate()" [(ngModel)]="selectedDateId">
+          <option value="" disabled selected>Дата</option>
+          <option
+            *ngFor="let date of datesList"
+            [value]="date.measureId"
+          >
+            {{ date.measureDate }}
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="charts-wrapper">
+    <ng-container *ngIf="!isEmptyMessage; else emptyData">
+      <div class="charts-header">
+        Отчет за {{ getDateById(selectedDateId) }}
+      </div>
+      <div class="charts">
+        <div class="chart temperature-chart" echarts [options]="temperatureChartConfig"></div>
+        <div class="chart vibration-chart" echarts [options]="vibrationChartConfig"></div>
+      </div>
+    </ng-container>
+    <ng-template #emptyData>
+      <div class="empty-data-message">
+        <p>Нет данных</p>
+        <p>Необходимо выбрать номер двигателя и дату</p>
+      </div>
+
+    </ng-template>
+  </div>
+</div>

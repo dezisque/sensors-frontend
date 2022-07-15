@@ -1,0 +1,353 @@
+{
+  "measures": [
+    {
+      "measureId": "id1",
+      "engineId": "1",
+      "sensorsData": [
+        {
+          "id": "measure1",
+          "measureId": "id1",
+          "type": "temperature",
+          "value": [92, 82, 85, 92, 87, 90]
+        },
+        {
+          "id": "measure2",
+          "measureId": "id1",
+          "type": "temperature",
+          "value": [90, 80, 83, 90, 85, 88]
+        },
+        {
+          "id": "measure3",
+          "measureId": "id1",
+          "type": "temperature",
+          "value": [88, 78, 81, 88, 83, 86]
+        },
+        {
+          "id": "measure4",
+          "measureId": "id1",
+          "type": "temperature",
+          "value": [89, 79, 82, 89, 84, 87]
+        },
+        {
+          "id": "measure5",
+          "measureId": "id1",
+          "type": "temperature",
+          "value": [89, 79, 84, 87, 82, 85]
+        },
+        {
+          "id": "measure6",
+          "measureId": "id1",
+          "type": "vibration",
+          "value": [4, 8, 7, 5, 2, 11]
+        },
+        {
+          "id": "measure7",
+          "measureId": "id1",
+          "type": "vibration",
+          "value": [5, 10, 2, 7, 4, 9]
+        },
+        {
+          "id": "measure8",
+          "measureId": "id1",
+          "type": "vibration",
+          "value": [1, 2, 4, 9, 7, 2]
+        }
+      ],
+      "measureDate": "2022-07-14 10:00:00.00+03"
+    },
+    {
+      "measureId": "id2",
+      "engineId": "2",
+      "sensorsData": [
+        {
+          "id": "measure9",
+          "measureId": "id2",
+          "type": "temperature",
+          "value": [
+            20,
+            32,
+            23,
+            33,
+            25,
+            29
+          ]
+        },
+        {
+          "id": "measure10",
+          "measureId": "id2",
+          "type": "temperature",
+          "value": [
+            34,
+            23,
+            19,
+            22,
+            26,
+            28
+          ]
+        },
+        {
+          "id": "measure11",
+          "measureId": "id2",
+          "type": "temperature",
+          "value": [
+            30,
+            29,
+            24,
+            38,
+            25,
+            28
+          ]
+        },
+        {
+          "id": "measure12",
+          "measureId": "id2",
+          "type": "temperature",
+          "value": [
+            22,
+            23,
+            14,
+            25,
+            26,
+            20
+          ]
+        },
+        {
+          "id": "measure13",
+          "measureId": "id2",
+          "type": "temperature",
+          "value": [
+            39,
+            26,
+            13,
+            24,
+            22,
+            26
+          ]
+        },
+        {
+          "id": "measure14",
+          "measureId": "id2",
+          "type": "vibration",
+          "value": [
+            6,
+            7,
+            3,
+            4,
+            7,
+            13
+          ]
+        },
+        {
+          "id": "measure15",
+          "measureId": "id2",
+          "type": "vibration",
+          "value": [
+            2,
+            4,
+            7,
+            3,
+            5,
+            8
+          ]
+        },
+        {
+          "id": "measure16",
+          "measureId": "id2",
+          "type": "vibration",
+          "value": [
+            3,
+            4,
+            7,
+            2,
+            5,
+            10
+          ]
+        }
+      ],
+      "measureDate": "2022-07-14 15:00:00.00+03"
+    },
+    {
+      "measureId": "id3",
+      "engineId": "2",
+      "sensorsData": [
+        {
+          "id": "measure17",
+          "measureId": "id3",
+          "type": "temperature",
+          "value": [
+            20,
+            32,
+            23,
+            33,
+            25,
+            29
+          ]
+        },
+        {
+          "id": "measure18",
+          "measureId": "id3",
+          "type": "temperature",
+          "value": [
+            34,
+            23,
+            19,
+            22,
+            26,
+            28
+          ]
+        },
+        {
+          "id": "measure19",
+          "measureId": "id3",
+          "type": "temperature",
+          "value": [
+            30,
+            29,
+            24,
+            38,
+            25,
+            28
+          ]
+        },
+        {
+          "id": "measure20",
+          "measureId": "id3",
+          "type": "temperature",
+          "value": [
+            22,
+            23,
+            14,
+            25,
+            26,
+            20
+          ]
+        },
+        {
+          "id": "measure21",
+          "measureId": "id3",
+          "type": "temperature",
+          "value": [
+            39,
+            26,
+            13,
+            24,
+            22,
+            26
+          ]
+        },
+        {
+          "id": "measure22",
+          "measureId": "id3",
+          "type": "vibration",
+          "value": [
+            6,
+            7,
+            3,
+            4,
+            7,
+            13
+          ]
+        },
+        {
+          "id": "measure23",
+          "measureId": "id3",
+          "type": "vibration",
+          "value": [
+            2,
+            4,
+            7,
+            3,
+            5,
+            8
+          ]
+        },
+        {
+          "id": "measure24",
+          "measureId": "id3",
+          "type": "vibration",
+          "value": [
+            3,
+            4,
+            7,
+            2,
+            5,
+            10
+          ]
+        }
+      ],
+      "measureDate": "2022-07-14 19:00:00.00+03"
+    },
+    {
+      "measureId": "id4",
+      "engineId": "2",
+      "sensorsData": [
+        {
+          "id": "measure25",
+          "measureId": "id4",
+          "type": "temperature",
+          "value": [
+            20,
+            32,
+            23,
+            33,
+            25,
+            29
+          ]
+        },
+        {
+          "id": "measure26",
+          "measureId": "id4",
+          "type": "temperature",
+          "value": [
+            34,
+            23,
+            19,
+            22,
+            26,
+            28
+          ]
+        },
+        {
+          "id": "measure27",
+          "measureId": "id4",
+          "type": "temperature",
+          "value": [
+            30,
+            29,
+            24,
+            38,
+            25,
+            28
+          ]
+        },
+        {
+          "id": "measure28",
+          "measureId": "id4",
+          "type": "temperature",
+          "value": [
+            22,
+            23,
+            14,
+            25,
+            26,
+            20
+          ]
+        },
+        {
+          "id": "measure29",
+          "measureId": "id4",
+          "type": "temperature",
+          "value": [
+            39,
+            26,
+            13,
+            24,
+            22,
+            26
+          ]
+        }
+      ],
+      "measureDate": "2022-07-14 7:00:00.00+03"
+    }
+  ]
+}

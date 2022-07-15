@@ -1,0 +1,40 @@
+.container {
+  .header {
+    background-color: #303340;
+    height: 64px;
+    .header-tabs {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 500;
+      justify-content: center;
+      height: 100%;
+      .tab {
+        cursor: pointer;
+        height: calc(100% - 2px);
+        color: #A1A5B7;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid transparent;
+        &.active, &:hover {
+          color: #FFFFFF;
+          border-color: #337EFF;
+        }
+        &:last-child {
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+  .views {
+    padding-top: 32px;
+  }
+  .developer-block {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+    opacity: .5;
+  }
+}

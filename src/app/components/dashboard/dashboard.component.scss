@@ -1,0 +1,59 @@
+.container {
+  padding: 15px;
+  .charts-wrapper {
+    padding-top: 32px;
+    .charts-header {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .charts {
+      width: 100%;
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .chart {
+        width: 50%;
+      }
+    }
+    .empty-data-message {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      color: #F14141;
+      font-weight: 600;
+    }
+  }
+
+  .selection-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .control-wrapper {
+      width: 200px;
+      padding-top: 12px;
+      &:first-child {
+        padding-top: 0;
+      }
+      .label {
+        padding-left: 8px;
+        color: #777B92;
+        font-weight: 600;
+        font-size: 16px;
+        padding-bottom: 5px;
+      }
+      .control {
+        width: 100%;
+        select {
+          width: 100%;
+          height: 32px;
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+}

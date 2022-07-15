@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sensors-c535b": {
+      "hosting": {
+        "sensors-visualizer": [
+          "sensors-c535b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sensors-c535b"
+  }
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <p class="mention">
+    Необходимо выбрать файл с данными:
+  </p>
+  <div class="file-chooser">
+    <input
+      type="file"
+      id="file"
+      (change)="handleFileInput($event)"
+    >
+  </div>
+  <div class="form-buttons">
+    <button (click)="sendData()">Отправить данные</button>
+  </div>
+</div>
